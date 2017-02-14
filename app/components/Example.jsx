@@ -12,7 +12,9 @@ var Example = React.createClass({
 
 var Example = (props) => {
 	return(
-		<h3> Weather Examples </h3>
+		<div>
+			<h4> Weather Examples </h4>
+		</div>
 	)
 }
 

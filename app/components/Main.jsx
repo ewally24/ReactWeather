@@ -15,16 +15,16 @@ var objOne = {
 	console.log(objTwo);
 
 	function addPromise(a, b) {
-		return new Promise(function(resolve, reject) {
+		return new Promise(function() {
 			setTimeout(function() {
-				if(typeof a === "number" && typeof b === "number") {
+				if(typeof a === 'number' typeof b === 'number') {
 					var sum = a + b;
-					resolve(sum);
+					resolve(sum)
 				} else {
-					reject('One or both of the parameters entered is NaN');
+					reject('One or both of the values entered is NaN');
 				}
 			}, 1000)
-		})	
+		})
 	}
 
 	addPromise(4, 7).then(function(sum) {
