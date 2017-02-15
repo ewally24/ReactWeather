@@ -13,7 +13,8 @@ var Example = React.createClass({
 var Example = (props) => {
 	return(
 		<div>
-			<h4> Weather Examples </h4>
+			<h4> Examples </h4>
+			<p> Here are some examples </p>
 		</div>
 	)
 }
