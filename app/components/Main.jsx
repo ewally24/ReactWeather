@@ -15,9 +15,9 @@ var objOne = {
 	console.log(objTwo);
 
 	function addPromise(a, b) {
-		return new Promise(function() {
+		return new Promise(function(resolve, reject) {
 			setTimeout(function() {
-				if(typeof a === 'number' typeof b === 'number') {
+				if(typeof a === 'number' && typeof b === 'number') {
 					var sum = a + b;
 					resolve(sum)
 				} else {
