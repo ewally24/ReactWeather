@@ -51,7 +51,11 @@ var Main = (props) => {
 	return(
 		<div>
 			<Nav/>
-			{props.children}
+			<div className='row'>
+				<div className='medium-6 large-4 small-centered'>
+					{props.children}
+				</div>
+			</div>
 		</div>
 	)
 }
