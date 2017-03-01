@@ -13,7 +13,7 @@ var About = React.createClass({
 var About = (props) => {
 	return(
 		<div>
-			<h1 className='text-centered subheader'> About </h1>
+			<h1 className='text-centered subheader page-title'> About </h1>
 			<p> This is a weather app I build using React </p>
 
 			<p>
