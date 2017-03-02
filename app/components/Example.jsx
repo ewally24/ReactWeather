@@ -14,7 +14,7 @@ var Example = React.createClass({
 var Example = (props) => {
 	return(
 		<div>
-			<h2 className='text-centered page-title'> Examples </h2>
+			<h2 className='text-center page-title'> Examples </h2>
 			<p> Here are some example location to try out</p>
 			<ol>
 				<li> <Link to='/?location=New York'> New York </Link> </li>
